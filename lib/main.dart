@@ -1,23 +1,23 @@
-
 import 'package:flutter/material.dart';
-import 'WIDGETS/counterprblm.dart';
+import 'WIDGETS/listtile.dart';
 void main(){
-  runApp(const MyApp());
+
+  runApp(MyApp());
+  
+
 }
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
+  
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'login page',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-
-      ),
-      home: Myhome(),
-      
+       home: menu(),
     );
   }
 }
+
+
